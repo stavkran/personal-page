@@ -5,15 +5,18 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.11.16",
+    "@mui/material": "^5.12.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "or": "^0.2.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.3",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-typist": "^2.0.5",
@@ -45,5 +48,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "@types/react-bootstrap": "^0.32.32",
+    "css-loader": "^6.7.3"
   }
 }
