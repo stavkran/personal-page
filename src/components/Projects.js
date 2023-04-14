@@ -21,44 +21,6 @@ class Projects extends React.Component {
         });
     }
     render() {
-        const spotlightProjects = {
-        "Tic Tac Toe": {
-            car_title: "tic tac toe",
-            car_desc:
-            "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
-            car_tech: "PYTHON",
-            car_link: "https://github.com/stavkran/TicTacToe",
-            car_open: "",
-            image: "/assets/tictactoe.png"
-        },
-        "Tic Tac Toe 1": {
-            car_title: "tic tac toe 1",
-            car_desc:
-            "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
-            car_tech: "PYTHON",
-            car_link: "https://github.com/stavkran/TicTacToe",
-            car_open: "",
-            image: "/assets/tictactoe.png"
-        },
-        "Tic Tac Toe 2": {
-            car_title: "tic tac toe 2",
-            car_desc:
-            "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
-            car_tech: "PYTHON",
-            car_link: "https://github.com/stavkran/TicTacToe",
-            car_open: "",
-            image: "/assets/tictactoe.png"
-        },
-        Portfolio: {
-            car_title: "portfolio.js",
-            car_desc:
-            "A small JS library that helps with clear and succinct data presentation.",
-            car_tech: "NODE.JS (EXPRESS.JS)",
-            car_link: "https://github.com/gazijarin/Portfolio.js",
-            car_open: "https://afternoon-ocean-92382.herokuapp.com/",
-            image: "/assets/portfolio.png"
-        }
-        };
         const projects = {
         "Tic Tac Toe": {
             desc:
@@ -67,39 +29,18 @@ class Projects extends React.Component {
             link: "https://github.com/stavkran/TicTacToe",
             open: ""
             },
-        "Adam A.I.": {
+        "Seed-Dataset-Classification-and-Clustering": {
             desc:
-            "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
+            "This Python project involves using a seed dataset for classification and clustering tasks, where machine learning algorithms are applied to classify seeds into different categories and group similar seeds together based on their features.",
             techStack: "PYTHON",
-            link: "https://github.com/stavkran/TicTacToe",
+            link: "https://github.com/stavkran/Seed-Dataset-Classification-and-Clustering",
             open: ""
         },
-        "Distributed Logging and Monitoring System": {
+        "Tic Tac Toe 3": {
             desc:
             "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
             techStack: "PYTHON",
             link: "https://github.com/stavkran/TicTacToe"
-        },
-        "Odin Bot": {
-            desc:
-            "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
-            techStack: "PYTHON",
-            link: "https://github.com/stavkran/TicTacToe",
-            open: ""
-        },
-        "Game Centre": {
-            desc:
-            "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
-            techStack: "PYTHON",
-            link: "https://github.com/stavkran/TicTacToe",
-            open: ""
-        },
-        "Minimax Stonehenge": {
-            desc:
-            "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-            techStack: "Python",
-            link: "https://github.com/gazijarin/stonehenge",
-            open: ""
         }
         };
 
@@ -108,31 +49,6 @@ class Projects extends React.Component {
             <div className="section-header ">
             <span className="section-title">/ personal-projects</span>
             </div>
-            <Carousel>
-                {Object.keys(spotlightProjects).map((key, i) => (
-                    <Carousel.Item key={key}> {/* Add unique key prop */}
-                    <img
-                        className="d-block w-100"
-                        src={spotlightProjects[key]["image"]}
-                        alt={key}
-                    />
-                    <div className="caption-bg">
-                        <Carousel.Caption>
-                        <h3>{spotlightProjects[key]["title"]}</h3>
-                        <p>
-                            {spotlightProjects[key]["desc"]}
-                            <p className="techStack">{spotlightProjects[key]["techStack"]}</p>
-                        </p>
-                        <Links
-                            githubLink={spotlightProjects[key]["link"]}
-                            openLink={spotlightProjects[key]["open"]}
-                        ></Links>
-                        </Carousel.Caption>
-                    </div>
-                    </Carousel.Item>
-                ))}
-            </Carousel>
-
             <div className="project-container">
             <ul className="projects-grid">
                 {Object.keys(projects).map((key, i) => (
