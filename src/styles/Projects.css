@@ -2,6 +2,7 @@
     padding-left: 15%;
     padding-right: 25%;
     min-height: 60vh;
+    margin-bottom: 8%;
 }
 
 .projects-grid {
@@ -42,14 +43,14 @@
     border-bottom: none !important;
 }
 .folder-icon {
-    color: var(--green-bright);
+    color: var(--pink-bright);
 }
 
 .github-icon {
     margin-top: 6px;
 }
 .github-icon:hover {
-    color: var(--green-bright);
+    color: var(--pink-bright);
 }
 
 .open-icon {
@@ -124,11 +125,24 @@
     font-family: "NTR", sans-serif;
     font-size: 14px;
     font-weight: bold;
-    color: var(--green-bright);
+    color: var(--pink-bright);
 }
 
 .carousel-indicators .active {
-    background-color: var(--green-bright);
+    background-color: var(--pink-bright);
+}
+
+@media only screen and (min-width: 605px ) and (max-width: 992px) {
+    #projects {
+        height: unset;
+        padding-left: unset;
+        padding-right: unset;
+        margin-top: 30%;
+        margin-left: 3%;
+    }
+    .carousel {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -136,6 +150,8 @@
         height: unset;
         padding-left: unset;
         padding-right: unset;
+        margin-top: 20%;
+        margin-left: 3%;
     }
     .carousel {
         display: none;

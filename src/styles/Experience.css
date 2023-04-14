@@ -1,6 +1,7 @@
 #experience {
     padding-left: 15%;
     min-height: 60vh;
+    margin-bottom: 15%;
 }
 
 .joblist-job-title {
@@ -95,6 +96,9 @@ ul {
     #experience {
         padding-left: unset;
         padding-right: unset;
+        margin-bottom: 30%;
+        margin-top: 15%;
+        margin-left: 3%;
     }
 
     .jss1 {
@@ -115,4 +119,16 @@ ul {
     .joblist-job-company {
         font-size: 22px;
     }
+}
+
+@media only screen and (min-width: 605px ) and (max-width: 992px) {
+    #experience {
+        height: unset;
+        padding-left: unset;
+        padding-right: unset;
+        margin-bottom: 30%;
+        margin-top: 15%;
+        margin-left: 3%;
+    }
+
 }

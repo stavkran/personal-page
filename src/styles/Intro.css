@@ -5,7 +5,8 @@
     padding-left: 15%;
     padding-top: 10%;
     min-height: 100vh;
-    margin-bottom: -30px;
+    /* margin-bottom: -30px; */
+    /* margin-bottom: 5%; */
 }
 
 .Typist {
@@ -109,5 +110,16 @@ b {
         font-size: 16px;
         align-self: center;
         margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 605px ) and (max-width: 992px) {
+    #projects {
+        height: unset;
+        padding-left: unset;
+        padding-right: unset;
+        margin-bottom: 27%;
+        margin-top: 15%;
+
     }
 }
