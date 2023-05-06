@@ -5,6 +5,11 @@ import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 import SendRoundedIcon from '@mui/icons-material/SendRounded';
 import FadeInSection from "./FadeInSection";
+import { Canvas } from '@react-three/fiber';
+import { Model } from './Scene';
+
+
+// useGLTF.preload('/scene-transformed.glb');
 
 class Intro extends React.Component {
     constructor() {
@@ -24,6 +29,11 @@ class Intro extends React.Component {
     render() {
         return (
             <div id="intro">
+                <Canvas style={{marginTop: '2%', paddingBottom: '2%', position: 'fixed',width: "100%", height: "100%" }}>
+                    <ambientLight />
+                    <pointLight position={[10, 10, 10]} />
+                    <Model scale={1} />
+                </Canvas>
                 <Typist avgTypingDelay={10}>
                     <span className="intro-title">
                     {"hi, it's "}
