@@ -36,11 +36,11 @@ class Projects extends React.Component {
             link: "https://github.com/stavkran/Seed-Dataset-Classification-and-Clustering",
             open: ""
         },
-        "Tic Tac Toe 3": {
+        "File Uploader": {
             desc:
-            "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
-            techStack: "PYTHON",
-            link: "https://github.com/stavkran/TicTacToe"
+            "A Django Web Application in which you can upload csv files with duplicates and get the cleaned csv.",
+            techStack: "DJANGO",
+            link: "https://github.com/stavkran/file-uploader"
         }
         };
 
