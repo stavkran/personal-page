@@ -52,6 +52,10 @@
   "devDependencies": {
     "@types/bootstrap": "^5.2.6",
     "@types/react-bootstrap": "^0.32.32",
-    "css-loader": "^6.7.3"
-  }
+    "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "https://stavkran.github.io/personal-page",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
