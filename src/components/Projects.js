@@ -41,6 +41,13 @@ class Projects extends React.Component {
             "A Django Web Application in which you can upload csv files with duplicates and get the cleaned csv.",
             techStack: "DJANGO",
             link: "https://github.com/stavkran/file-uploader"
+        },
+        "Car Rental": {
+            desc:
+            "The Car Rental App, written in Java, is a user-friendly platform that allows individuals to search, book, and manage car rentals conveniently, providing a seamless experience from start to finish.",
+            techStack: "JAVA",
+            link: "https://github.com/stavkran/car-rental",
+            open: ""
         }
         };
 
