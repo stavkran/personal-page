@@ -5,6 +5,8 @@
     padding-left: 15%;
     padding-top: 10%;
     min-height: 100vh;
+    /* margin-bottom: -30px; */
+    /* margin-bottom: 5%; */
 }
 
 .Typist {
@@ -22,6 +24,7 @@
 .intro-title {
     font-family: "NTR", sans-serif;
     font-size: 86px;
+    margin-bottom: 15px;
 }
 
 .intro-name {
@@ -32,11 +35,12 @@
 }
 
 .intro-subtitle {
-    margin-top: -36px;
+    margin-top: -26px;
     font-family: "NTR", sans-serif;
     color: var(--light-slate);
     font-weight: 300;
     font-size: 48px;
+    margin-bottom: 10px;
 }
 
 .intro-desc {
@@ -106,5 +110,16 @@ b {
         font-size: 16px;
         align-self: center;
         margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 605px ) and (max-width: 992px) {
+    #projects {
+        height: unset;
+        padding-left: unset;
+        padding-right: unset;
+        margin-bottom: 27%;
+        margin-top: 15%;
+
     }
 }

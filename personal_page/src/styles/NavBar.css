@@ -80,7 +80,11 @@ img {
         align-items: center;
     }
     .sidebar-logos {
-        width: 70px;
+        width: 100px;
         padding-left: unset;
+    }
+
+    .sidebar-links{
+        font-size: 15px;
     }
 }
