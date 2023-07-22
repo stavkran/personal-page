@@ -24,7 +24,7 @@ class Intro extends React.Component {
     render() {
         return (
             <div id="intro">
-                <Typist avgTypingDelay={10}>
+                <Typist avgTypingDelay={50}>
                     <span className="intro-title">
                     {"hi, it's "}
                     <span className="intro-name">{"Stavriana"}</span>
