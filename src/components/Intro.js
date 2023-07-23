@@ -36,7 +36,7 @@ class Intro extends React.Component {
                     <div className="intro-desc">
                         I'm a student at the Department of Digital Systems at 
                         the University of Piraeus. My interests vary from software development, 
-                        to Data Science and everything in between.
+                        to Artificial Intelligence and everything in between.
                     </div>
                     <a
                         href="mailto:stavkraniti01@gmail.com"

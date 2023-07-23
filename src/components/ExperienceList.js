@@ -83,12 +83,20 @@ function TabPanel(props) {
 
     const experienceItems = {
         "Cyber Noesis": {
-        jobTitle: "Software Development Intern @",
-        duration: "APR 2023 - JUN ",
+        // jobTitle: "Software Development Intern @",
+        // duration: "APR 2023 - JUN ",
+        // desc: [
+        //     "Collaborated with the software development team to develop, test, and maintain software applications and systems used in cybersecurity.",
+        //     "Gained hands-on experience working with cutting-edge technologies and contributing to the development of software products.",
+        //     "Participated in code reviews and provided constructive feedback to improve code quality. Helped identify and resolve software defects and issues. Also, assisted in conducting research and development activities to support new product development or enhancements to existing products."
+        // ]
+        jobTitle: "Software Developer @",
+        duration: "APR 2023 - PRESENT",
         desc: [
-            "Collaborated with the software development team to develop, test, and maintain software applications and systems used in cybersecurity.",
-            "Gained hands-on experience working with cutting-edge technologies and contributing to the development of software products.",
-            "Participated in code reviews and provided constructive feedback to improve code quality. Helped identify and resolve software defects and issues. Also, assisted in conducting research and development activities to support new product development or enhancements to existing products."
+            "Develop and maintain software applications and systems, ensuring they meet the organization's security needs effectively.",
+            "Containerize applications using Docker and manage them with Kubernetes for efficient deployment and scalability in cybersecurity operations.",
+            "Collaborate with the tech team to gather requirements and implement new features, aligning software development with cybersecurity goals.",
+            "Contribute to code reviews, troubleshoot, and resolve software defects to improve code quality and enhance cybersecurity software reliability."
         ]
         },
         "University of Piraeus": {

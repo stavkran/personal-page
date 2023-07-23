@@ -21,7 +21,7 @@ class About extends React.Component {
         <p>
         I am currently a university student at the Department of Digital Systems at the
         <a href="https://www.ds.unipi.gr/" target="_blank"> University of Piraeus</a>. At the same time, 
-        I am doing an intership as a <b> Software Developer </b>
+        I am working as a <b> Software Developer </b>
         at{" "} <a href="https://www.cybernoesis.com/" target="_blank">Cyber Noesis</a>.
         </p>
     );
@@ -33,7 +33,10 @@ class About extends React.Component {
         "Django",
         "React.js",
         "Three.js",
-        "Node.js",
+        "Java",
+        "SQL",
+        "MongoDB",
+        "Docker",
         "HTML & CSS"
     ];
 
