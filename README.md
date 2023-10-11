@@ -1,3 +1,17 @@
+# My personal Portfolio Page showcasing my work and skills
+
+![Portfolio Image](./portfolioPage.png)
+
+## Project Description
+
+This React project is a personal portfolio page showcasing my work and skills. It was created using Create React App and includes various features, such as code splitting, advanced configuration, and more. The image above shows a snapshot of the project's user interface.
+
+### Skills and Technologies Used
+
+- React
+- JavaScript
+- HTML/CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
