@@ -18,7 +18,6 @@
     "react-dom": "^18.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.10.0",
-    "react-scripts": "5.0.1",
     "react-typist": "^2.0.5",
     "react-typist-component": "^1.0.5",
     "rsuite": "^5.31.0",
@@ -55,8 +54,8 @@
     "@types/bootstrap": "^5.2.6",
     "@types/react-bootstrap": "^0.32.32",
     "css-loader": "^6.7.3",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "react-scripts": "^5.0.1"
   },
   "homepage": "https://stavkran.github.io/personal-page"
-  
 }

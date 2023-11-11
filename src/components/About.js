@@ -20,9 +20,8 @@ class About extends React.Component {
         const one = (
         <p>
         I am currently a university student at the Department of Digital Systems at the
-        <a href="https://www.ds.unipi.gr/" target="_blank"> University of Piraeus</a>. At the same time, 
-        I am working as a <b> Software Developer </b>
-        at{" "} <a href="https://www.cybernoesis.com/" target="_blank">Cyber Noesis</a>.
+        <a href="https://www.ds.unipi.gr/" target="_blank"> University of Piraeus</a>. Artificial intelligence, 
+        full-stack development, human-computer interactions, and all in between are areas of significant interest to me.
         </p>
     );
     const desc_items = [one];
@@ -37,7 +36,9 @@ class About extends React.Component {
         "SQL",
         "MongoDB",
         "Docker",
-        "HTML & CSS"
+        "TensorFlow",
+        "Keras",
+        "NLP"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
@@ -63,7 +64,7 @@ class About extends React.Component {
                 </ul>
             </div>
             <div className="about-image">
-                <img src={"/assets/me.jpg"} alt=""/>
+                <img src={"/personal-page/assets/me.jpg"} alt=""/>
             </div>
             </div>
         </FadeInSection>

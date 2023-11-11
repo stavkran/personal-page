@@ -44,7 +44,7 @@ class NavBar extends React.Component {
             <a href="https://github.com/stavkran" target="_blank">
             <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
             </a>
-            <a href="https://www.linkedin.com/in/stavriana-kraniti-38291b205/" target="_blank">
+            <a href="https://www.linkedin.com/in/stavriana-kraniti/" target="_blank">
             <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
             </a>
             </div>
