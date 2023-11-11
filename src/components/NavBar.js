@@ -32,6 +32,7 @@ class NavBar extends React.Component {
         <a href="#intro">/home</a>,
         <a href="#about">/about</a>,
         <a href="#experience">/experience</a>,
+        <a href="#certifications">/certifications</a>,
         <a href="#projects">/personal-projects</a>
     ]; 
 
