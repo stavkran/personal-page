@@ -5,6 +5,12 @@ class Certifications extends React.Component {
     render() {
     const certifications = [
         {
+            title: "Fundamentals of Deep Learning",
+            desc:"NVIDIA",
+            image: "/personal-page/assets/nvidia_logo.png",
+            credential: "https://courses.nvidia.com/certificates/249d61dd0f4f429ba96784efad8bf576/",
+        },
+        {
             title: "Ethics of AI",
             desc:"University of Helsinki",
             image: "/personal-page/assets/1631300517673.png",
