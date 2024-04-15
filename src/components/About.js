@@ -20,25 +20,24 @@ class About extends React.Component {
         const one = (
         <p>
         I am currently a university student at the Department of Digital Systems at the
-        <a href="https://www.ds.unipi.gr/" target="_blank"> University of Piraeus</a>. Artificial intelligence, 
-        full-stack development, human-computer interactions, and all in between are areas of significant interest to me.
+        <a href="https://www.ds.unipi.gr/" target="_blank"> University of Piraeus</a>. 
+        I'm also a Junior Software Engineer at <a href="https://www.cognity.gr/" target="_blank">Cognity</a>.
+        Full-stack development, human-computer interactions, and all in between are areas of significant interest to me.
         </p>
     );
     const desc_items = [one];
 
     const tech_stack = [
+        "Java",
+        "C#",
+        ".NET",
         "Javascript",
         "Python",
         "Django",
         "React.js",
-        "Three.js",
-        "Java",
         "SQL",
         "MongoDB",
         "Docker",
-        "TensorFlow",
-        "Keras",
-        "NLP"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);

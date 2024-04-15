@@ -82,6 +82,13 @@ function TabPanel(props) {
     const [value, setValue] = React.useState(0);
 
     const experienceItems = {
+        "Cognity": {
+            jobTitle: "Software Engineer @",
+            duration: "FEB 2024 - Present",
+            desc: [
+                "Working on a project for OTE, the largest telecom company in Greece."
+            ]
+        },
         "Cyber Noesis": {
         // jobTitle: "Software Development Intern @",
         // duration: "APR 2023 - JUN ",

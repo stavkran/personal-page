@@ -41,12 +41,6 @@ class Projects extends React.Component {
             }
         };
         const projects = {
-        "IMDbReviews | Sentiment-Analysis ": {
-            desc:
-            "This project involves using the IMDb dataset to train a model that can predict the sentiment of a movie review as either positive or negative. The model is trained using a neural network with an embedding layer and a dense layer with sigmoid activation. The model is then used to predict the sentiment of a movie review from the user input.",
-            techStack: "PYTHON, NUMPY, PANDAS, SKLEARN",
-            link: "https://github.com/stavkran/IMDbReviews-Sentiment-Analysis/tree/main"
-        },
         "University of Piraeus - Lbrary Reservation System": {
             desc:
             "Explore the University of Piraeus Library's digital gateway project. Implemented using Python, Flask, and MongoDB, it offers a web service for users to manage book reservations.",
@@ -78,13 +72,19 @@ class Projects extends React.Component {
             link: "https://github.com/stavkran/car-rental",
             open: ""
         },
-        "Tic Tac Toe": {
+        "IMDbReviews | Sentiment-Analysis ": {
             desc:
-            "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
-            techStack: "PYTHON",
-            link: "https://github.com/stavkran/TicTacToe",
-            open: ""
-            }
+            "This project involves using the IMDb dataset to train a model that can predict the sentiment of a movie review as either positive or negative. The model is trained using a neural network with an embedding layer and a dense layer with sigmoid activation. The model is then used to predict the sentiment of a movie review from the user input.",
+            techStack: "PYTHON, NUMPY, PANDAS, SKLEARN",
+            link: "https://github.com/stavkran/IMDbReviews-Sentiment-Analysis/tree/main"
+        },
+        // "Tic Tac Toe": {
+        //     desc:
+        //     "A tic-tac-toe game in Python involves players taking turns entering 'X' or 'O' moves on a 3x3 game board, checking for win or draw conditions, and offering the option to play again or quit the game.",
+        //     techStack: "PYTHON",
+        //     link: "https://github.com/stavkran/TicTacToe",
+        //     open: ""
+        //     }
         };
 
         return (
