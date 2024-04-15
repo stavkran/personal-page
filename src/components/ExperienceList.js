@@ -84,7 +84,7 @@ function TabPanel(props) {
     const experienceItems = {
         "Cognity": {
             jobTitle: "Software Engineer @",
-            duration: "FEB 2024 - Present",
+            duration: "APR 2024 - PRESENT",
             desc: [
                 "Working on a project for OTE, the largest telecom company in Greece."
             ]
