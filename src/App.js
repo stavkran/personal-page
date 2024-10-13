@@ -8,19 +8,23 @@ import Certifications from "./components/Certifications";
 import Credits from "./components/Credits";
 import "./styles/global.css";
 import NavBar from "./components/NavBar";
+import GalaxyBackground from './components/GalaxyBackground';
 
 function App() {
   return (
     <div className="App">
       <div id="content">
+        <GalaxyBackground />
         <Intro></Intro>
+        
+        
         <About></About>
         <Experience></Experience>
-        <Certifications></Certifications>
-        <Projects></Projects>
-        <Credits></Credits>
+        {/* <Projects></Projects> */}
+        {/* <Credits></Credits> */}
       </div>
       <NavBar />
+      
       </div>
   );
 }

@@ -17,17 +17,17 @@
     display: flex;
     flex-direction: column;
     text-align: right;
-    font-family: "NTR", sans-serif;
+    font-family: "Inconsolata", monospace;
     letter-spacing: 0em;
     line-height: 1.6em;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0.2em;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a {
     text-decoration: none !important;
-    color: var(--pink-bright) !important;
+    color: var(--text-blue) !important;
 }
 
 a:hover {

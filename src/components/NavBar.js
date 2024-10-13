@@ -30,9 +30,9 @@ class NavBar extends React.Component {
 
     const links = [
         <a href="#intro">/home</a>,
-        <a href="#about">/about</a>,
+        <a href="#about">/about-me</a>,
         <a href="#experience">/experience</a>,
-        <a href="#certifications">/certifications</a>,
+        // <a href="#certifications">/certifications</a>,
         <a href="#projects">/personal-projects</a>
     ]; 
 

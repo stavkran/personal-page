@@ -5,6 +5,17 @@
   src: url("/fonts/NTR-Regular.ttf") format("truetype");
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+/* .inconsolata-<uniquifier> {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,7 +36,7 @@ html {
 }
 
 .App {
-  background-color: var(--navy);
+  /* background-color: var(--navy); */
   display: flex;
   flex-direction: row;
   /* padding: 36px 76px; */
@@ -79,7 +90,8 @@ html {
 }
 
 .section-title {
-  font-family: "NTR", sans-serif;
+  /* font-family: "NTR", sans-serif; */
+  font-family: "Inconsolata", monospace;
   color: var(--lightest-slate);
   font-size: 46px;
   font-weight: bold;
@@ -107,4 +119,24 @@ html {
   .section-title {
     font-size: 32px;
   }
+}
+
+#----------------------
+/* src/App.css */
+.App {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.App-header {
+  position: relative;
+  z-index: 2;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
