@@ -85,6 +85,20 @@ html {
   font-weight: bold;
 }
 
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.background-model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .App {
     flex-direction: column;
