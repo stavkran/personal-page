@@ -86,7 +86,11 @@ function TabPanel(props) {
             jobTitle: "Software Engineer @",
             duration: "APR 2024 - PRESENT",
             desc: [
-                "Working on a project for OTE, the largest telecom company in Greece."
+                // "Working on a project for OTE, the largest telecom company in Greece.",
+                "Streamlined legacy order management for a telecom, aligning processes with evolving needs.",
+                "Resolved daily technical issues in order flows, maintaining optimal system performance.",
+                "Collaborated with CRM to develop scalable, high-performance microservices for enterprise clients.",
+                "Documented technical processes and resolutions for team knowledge sharing."
             ]
         },
         "Cyber Noesis": {
@@ -108,7 +112,7 @@ function TabPanel(props) {
         },
         "University of Piraeus": {
         jobTitle: "student @",
-        duration: "OCT 2019 - FEB 2024",
+        duration: "OCT 2019 - FEB 2025",
         desc: [
             "Worked on various hand-on projects involving coding assignments, software development projects, data analysis, and other practical exercises."
         ]

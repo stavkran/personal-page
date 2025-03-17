@@ -19,17 +19,19 @@ class About extends React.Component {
     render() {
         const one = (
         <p>
-        I am currently a university student at the Department of Digital Systems at the
+        I am a graduate of the Department of Digital Systems at the
         <a href="https://www.ds.unipi.gr/" target="_blank"> University of Piraeus</a>. 
-        I'm also a Junior Software Engineer at <a href="https://www.cognity.gr/" target="_blank">Cognity</a>.
-        Full-stack development, human-computer interactions, and all in between are areas of significant interest to me.
+        I'm also a Junior Software Integration Engineer at <a href="https://www.cognity.gr/" target="_blank">Cognity</a>.
+        Full-stack development, low-level programming, human-computer interactions, and all in between are areas of significant interest to me.
         </p>
     );
     const desc_items = [one];
 
     const tech_stack = [
         "Java",
+        "Spring Boot",
         "C#",
+        "C++",
         ".NET",
         "Javascript",
         "Python",
