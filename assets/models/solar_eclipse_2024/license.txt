@@ -1,0 +1,11 @@
+Model Information:
+* title:	Solar Eclipse 2024
+* source:	https://sketchfab.com/3d-models/solar-eclipse-2024-357e6b38d74b414aae11cf9d948251fd
+* author:	tamminen (https://sketchfab.com/tamminen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Solar Eclipse 2024" (https://sketchfab.com/3d-models/solar-eclipse-2024-357e6b38d74b414aae11cf9d948251fd) by tamminen (https://sketchfab.com/tamminen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
