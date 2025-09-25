@@ -19,10 +19,7 @@ class About extends React.Component {
     render() {
         const one = (
         <p>
-        I am a graduate of the Department of Digital Systems at the
-        <a href="https://www.ds.unipi.gr/" target="_blank"> University of Piraeus</a>. 
-        I'm also a Junior Software Integration Engineer at <a href="https://www.cognity.gr/" target="_blank">Cognity</a>.
-        Full-stack development, low-level programming, human-computer interactions, and all in between are areas of significant interest to me.
+            I graduated in Digital Systems from the <a href="https://www.ds.unipi.gr/" target="_blank"> University of Piraeus</a> and I’m now pursuing an MSc in Computer Science at the <a href="https://www.uva.nl/en" target="_blank">University of Amsterdam</a>, where I focus on Distributed Systems and Parallel Computing. I’m especially interested in full-stack development, low-level programming, and building scalable systems that bring ideas to life.
         </p>
     );
     const desc_items = [one];
@@ -30,8 +27,7 @@ class About extends React.Component {
     const tech_stack = [
         "Java",
         "Spring Boot",
-        "C#",
-        "C++",
+        "C",
         ".NET",
         "Javascript",
         "Python",

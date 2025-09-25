@@ -32,14 +32,13 @@ class NavBar extends React.Component {
         <a href="#intro">/home</a>,
         <a href="#about">/about</a>,
         <a href="#experience">/experience</a>,
-        <a href="#certifications">/certifications</a>,
         <a href="#projects">/personal-projects</a>
     ]; 
 
     return (
         <div className="sidebar-nav">
             <div className="sidebar-logos" href="/">
-            <a href="mailto:stavkraniti01@gmail.com">
+            <a href="mailto:stkraniti@gmail.com">
             <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
             </a>
             <a href="https://github.com/stavkran" target="_blank">

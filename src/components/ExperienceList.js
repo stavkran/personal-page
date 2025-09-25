@@ -84,7 +84,7 @@ function TabPanel(props) {
     const experienceItems = {
         "Cognity": {
             jobTitle: "Software Engineer @",
-            duration: "APR 2024 - PRESENT",
+            duration: "APR 2024 - AUG 2025",
             desc: [
                 // "Working on a project for OTE, the largest telecom company in Greece.",
                 "Streamlined legacy order management for a telecom, aligning processes with evolving needs.",
@@ -108,13 +108,6 @@ function TabPanel(props) {
             "Participated in the containerization of applications using Docker for efficient deployment and scalability in cybersecurity operations.",
             "Collaborated with the tech team to gather requirements and implement new features, aligning software development with cybersecurity goals.",
             "Contributed to code reviews, troubleshoot, and resolve software defects to improve code quality and enhance cybersecurity software reliability."
-        ]
-        },
-        "University of Piraeus": {
-        jobTitle: "student @",
-        duration: "OCT 2019 - FEB 2025",
-        desc: [
-            "Worked on various hand-on projects involving coding assignments, software development projects, data analysis, and other practical exercises."
         ]
         }
     };

@@ -34,11 +34,10 @@ class Intro extends React.Component {
                 <FadeInSection>
                     <div className="intro-subtitle">Good seeing you here.</div>
                     <div className="intro-desc">
-                        I'm a Junior Software Integration Engineer @<a href="https://www.cognity.gr/" target="_blank">Cognity</a>. My interests vary from Software Development, Robotics, Systems Engineering, Infrastructure, 
-                        to Artificial Intelligence and everything in between.
+                        I'm an MSc Computer Science student @<a href="https://www.uva.nl/en" target="_blank">University of Amsterdam</a>, specialising in Parallel Computing, Distributed Systems, and Cloud Infrastructure. Beyond my core focus, I am also interested in Software Development, Systems Engineering, and the design of scalable computing environments.
                     </div>
                     <a
-                        href="mailto:stavkraniti01@gmail.com"
+                        href="mailto:stkraniti@gmail.com"
                         className="intro-contact"
                     >
                         <SendRoundedIcon></SendRoundedIcon>
